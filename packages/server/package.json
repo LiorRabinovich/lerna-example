@@ -1,10 +1,10 @@
 {
   "name": "@lior/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@lior/common": "1.0.0",
+    "@lior/common": "^1.0.1",
     "graphql-yoga": "^1.18.3"
   },
   "scripts": {
