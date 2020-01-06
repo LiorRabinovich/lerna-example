@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^3.20.2"
+    },
+    "scripts": {
+        "test": "lerna run test --scope={@lior/common,@lior/server}",
+        "new-version": "lerna version --conventional-commits --yes",
+        "diff": "lerna diff"
+    },
+    "name": "lerna"
+}
